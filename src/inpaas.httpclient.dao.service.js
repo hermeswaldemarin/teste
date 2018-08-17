@@ -18,7 +18,7 @@
   
   function getHTTPServiceDao() {
     /*global require*/
-    //teste
+    //te
     return require("inpaas.core.entity.dao").getDao("CORE_HTTPSERVICE");
   }
   
