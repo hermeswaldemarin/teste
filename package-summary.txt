@@ -1,0 +1,22 @@
+modules (1)
+    inpaas.httpclient.core
+
+entities (2)
+    http_httpservice
+    http_clientlog
+
+l10n-labels (2)
+    inpaas.httpclient.core-default
+    inpaas.httpclient.core-en
+
+src (7)
+    inpaas.http.client
+    inpaas.httpclient.rest.http-client
+    inpaas.httpclient.dao.service
+    inpaas.httpclient.service.client
+    inpaas.httpclient.util.keystore
+    inpaas.httpclient.packer.services
+    inpaas.httpclient.test.clent
+
+etc (0)
+

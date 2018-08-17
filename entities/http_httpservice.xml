@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity alias="HTTP_HTTPSERVICE" audit-children="true" audit-delete="true" audit-insert="true" audit-update="true" change-tracking="true" core="false" defaultownership="O" finders-fixed="false" managed="true" name="HTTP_HTTPSERVICE" next-key="SEQUENCE" ownership="false" module-ref="inpaas.httpclient.core" xmlns:ns2="br.com.inpaas.model.entity">
+    <attributes>
+        <attribute alias="id" audit="true" encrypted="false" name="ID_HTTP_HTTPSERVICE" primary-key="XPK_HTTP_HTTPSERVICE" required="true" restricted="false" searchable="false" type="BIGINT"/>
+        <attribute alias="key" audit="true" encrypted="false" name="DS_KEY" required="true" restricted="false" searchable="false" size="255" type="VARCHAR"/>
+        <attribute audit="true" encrypted="false" name="TX_DATA" required="false" restricted="false" searchable="false" size="-1" type="VARCHAR"/>
+        <attribute alias="module" audit="true" encrypted="false" name="ID_MODULE" required="false" restricted="false" searchable="false" type="INT"/>
+        <attribute audit="true" encrypted="false" name="BL_PFXSECRET" required="false" restricted="false" searchable="false" size="-1" type="VARBINARY"/>
+        <attribute alias="type" audit="true" encrypted="false" name="DO_TYPE" required="true" restricted="false" searchable="false" size="1" type="CHAR">
+            <option label="label.httpservice.soap" value="S"/>
+            <option label="label.httpservice.rest" value="R"/>
+        </attribute>
+        <attribute audit="true" encrypted="false" name="BL_JKS" required="false" restricted="false" searchable="false" size="-1" type="VARBINARY"/>
+        <attribute audit="true" encrypted="false" name="BL_PFX" required="false" restricted="false" searchable="false" size="-1" type="VARBINARY"/>
+        <attribute alias="auth" audit="true" encrypted="false" name="DO_AUTH" required="false" restricted="false" searchable="false" size="1" type="CHAR">
+            <option label="label.yes" value="Y"/>
+            <option label="label.no" value="N"/>
+        </attribute>
+    </attributes>
+    <description>HTTP Service Definitions (WSDL / REST)</description>
+    <entity-queries/>
+</entity>

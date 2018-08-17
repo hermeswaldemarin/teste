@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:module finalVersion="false" key="inpaas.httpclient.core" name="HTTP Client - Library" title="label.httpclient.lib" xmlns:ns2="br.com.inpaas.module">
+    <libs/>
+</ns2:module>

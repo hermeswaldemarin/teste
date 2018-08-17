@@ -1,0 +1,25 @@
+module=inpaas.httpclient.core
+lang=default
+inpaas.httpclient=HTTP Client
+label.httpclient=HTTP Client
+label.httpclient.comments=Comments / More Info
+label.httpclient.endpoints=Endpoints
+label.httpclient.host=Host
+label.httpclient.import=<i class="fa fa-fw fa-floppy-o"></i> Import
+label.httpclient.key=Service Key
+label.httpclient.lib=HTTP Client - Library
+label.httpclient.methods=Methods
+label.httpclient.path=Path
+label.httpclient.porttype=Type
+label.httpclient.schema=Schema
+label.httpclient.servicename=Service Name
+label.httpclient.serviceport=Port
+label.httpclient.services=Services
+label.httpclient.servicetype=Type
+label.httpclient.serviceurl=Service URL (example: http://your-service-uri.com/api/v1)
+label.httpclient.ui=HTTP Client - UI
+label.httpclient.urltest=<i class="fa fa-fw fa-check"></i> Validate
+label.httpconn.rest=REST Service
+label.httpconn.soap=SOAP Service
+label.httpservice.rest=REST Service
+label.httpservice.soap=SOAP/WSDL Service

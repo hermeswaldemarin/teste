@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity alias="HTTP_CLIENTLOG" audit-children="true" audit-delete="false" audit-insert="false" audit-update="false" change-tracking="false" core="false" defaultownership="O" finders-fixed="false" managed="true" name="HTTP_CLIENTLOG" next-key="SEQUENCE" ownership="false" module-ref="inpaas.httpclient.core" xmlns:ns2="br.com.inpaas.model.entity">
+    <attributes>
+        <attribute audit="true" encrypted="false" name="ID_HTTPCLIENTLOG" primary-key="XPK_HTTPCLIENTLOG" required="true" restricted="false" searchable="false" size="60" type="VARCHAR"/>
+        <attribute alias="service" audit="true" encrypted="false" name="DS_SERVICE" required="false" restricted="false" searchable="false" size="255" type="VARCHAR"/>
+        <attribute alias="endpoint" audit="true" encrypted="false" name="DS_ENDPOINT" required="false" restricted="false" searchable="false" size="80" type="VARCHAR"/>
+        <attribute alias="methodHttp" audit="true" encrypted="false" name="DS_METHOD" required="true" restricted="false" searchable="false" size="10" type="VARCHAR"/>
+        <attribute alias="url" audit="true" encrypted="false" name="DS_URL" required="true" restricted="false" searchable="false" size="2000" type="VARCHAR"/>
+        <attribute audit="true" encrypted="false" name="TX_REQUEST" required="false" restricted="false" searchable="false" size="-1" type="VARCHAR"/>
+        <attribute audit="true" encrypted="false" name="TX_HEADERS" required="false" restricted="false" searchable="false" size="-1" type="VARCHAR"/>
+        <attribute audit="true" encrypted="false" name="NR_STATUS" required="false" restricted="false" searchable="false" type="INT"/>
+        <attribute audit="true" encrypted="false" name="TX_RESPONSE" required="false" restricted="false" searchable="false" size="-1" type="VARCHAR"/>
+        <attribute audit="true" encrypted="false" name="DT_STARTED" required="false" restricted="false" searchable="false" type="DATETIME"/>
+        <attribute audit="true" encrypted="false" name="DT_END" required="false" restricted="false" searchable="false" type="DATETIME"/>
+        <attribute audit="true" encrypted="false" name="NR_ELAPSED" required="false" restricted="false" searchable="false" type="BIGINT"/>
+    </attributes>
+    <entity-queries/>
+</entity>
